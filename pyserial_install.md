@@ -13,4 +13,9 @@ while True:
     print(valueToString)
 ```
 
-**port** - полное название порта на ОС Аврора 
+**port** - полное название порта на ОС Аврора
+**Чтобы узнать доступные порты:**
+```shell
+python -m serial.tools.list_ports
+```
+На Авровре вероятно пондобиться вместо python использовать python3.
