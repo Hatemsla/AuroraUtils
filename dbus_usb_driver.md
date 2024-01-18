@@ -1,5 +1,5 @@
 # Драйвер с dbus функциями
-
+```py
 import asyncio
 from dasbus.server.interface import dbus_interface
 from dasbus.typing import Str
@@ -189,4 +189,4 @@ try:
     loop.run()
 except KeyboardInterrupt:
     print('Exiting...')
-
+```
