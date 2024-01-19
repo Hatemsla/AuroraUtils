@@ -19,7 +19,9 @@ class HelloWorld(object):
         global ret
         try:
             ret = self.usb_device.read(READ_PORT, PACKAGE_SIZE, USB_TIMEOUT_MILLIS)
-            return str(ret)
+            print(str(ret, 'cp1251'))
+            print(to_hex(ret))
+            return str(ret, 'cp1251')
         except Exception as e:
             print(e)
             return "Error reading from USB"
