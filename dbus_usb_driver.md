@@ -61,7 +61,7 @@ SCL_RTS = 0x40
 dtr = False
 rts = False
 
-DEFAULT_BAUD_RATE = 921600
+DEFAULT_BAUD_RATE = 115200
 
 def find_device():
     dev = usb.core.find()
