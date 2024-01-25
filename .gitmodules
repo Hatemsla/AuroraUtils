@@ -1,0 +1,3 @@
+[submodule "usb_driver"]
+	path = usb_driver
+	url = https://github.com/Hatemsla/usb_driver.git
