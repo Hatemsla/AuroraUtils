@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=test_ffi_plugin
+Comment=A new Flutter project.
+Icon=ru.auroraos.test_ffi_plugin
+Exec=/usr/bin/ru.auroraos.test_ffi_plugin
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=
+OrganizationName=ru.auroraos
+ApplicationName=test_ffi_plugin

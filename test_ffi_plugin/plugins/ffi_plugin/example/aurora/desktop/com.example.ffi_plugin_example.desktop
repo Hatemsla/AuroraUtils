@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ffi_plugin_example
+Comment=Demonstrates how to use the ffi_plugin plugin.
+Icon=com.example.ffi_plugin_example
+Exec=/usr/bin/com.example.ffi_plugin_example
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=
+OrganizationName=com.example
+ApplicationName=ffi_plugin_example
